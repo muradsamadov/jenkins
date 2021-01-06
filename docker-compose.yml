@@ -3,7 +3,7 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins-ansible
+    image: muradsamadov/jenkins-ansible
     build:
       context: jenkins-ansible
     ports:
