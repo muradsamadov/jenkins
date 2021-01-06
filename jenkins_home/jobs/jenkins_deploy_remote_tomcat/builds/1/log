@@ -1,0 +1,36 @@
+Started by user [8mha:////4OJ78kE40ClH25J3RY2HhEfeQ9A18qQAjkPfLE1poF+3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Autodeployment
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/PythonAwsBoto3/webapp.git
+ > git init /var/jenkins_home/workspace/Autodeployment # timeout=10
+Fetching upstream changes from https://github.com/PythonAwsBoto3/webapp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+ > git fetch --tags --progress -- https://github.com/PythonAwsBoto3/webapp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/PythonAwsBoto3/webapp.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bc953fcf8f13ed0b3649bfd4765f00cee90705b6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bc953fcf8f13ed0b3649bfd4765f00cee90705b6 # timeout=10
+Commit message: "Updated statement on index page"
+First time build. Skipping changelog.
+[Autodeployment] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/jenkins-maven/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.dev3l.hello_world:mvn-hello-world >----------------
+[INFO] Building mvn-hello-world Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4HgBeycXHcKs9fpDGPkUzkQt6KxAE85iyo787gWl7XpLAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mvn-hello-world ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.559 s
+[INFO] Finished at: 2021-01-05T12:34:37Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

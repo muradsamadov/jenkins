@@ -1,0 +1,9 @@
+commit 31f8f5cf50f54fbc1117968bd824c960ac462057
+tree 44e1a79a575c08b127a50c3729240c3f48183e38
+parent ceb9695a184419487b93220f3175b9028a79e868
+author muradsamadov <62170035+muradsamadov@users.noreply.github.com> 2021-01-05 11:52:37 +0400
+committer GitHub <noreply@github.com> 2021-01-05 11:52:37 +0400
+
+    Update App.java
+
+:100644 100644 5a6d57214d17ba7484046928cf2e933ec550b50a e719c36366fc5020643b9d9667ecfa126642d2ba M	src/main/java/com/mycompany/app/App.java

@@ -1,0 +1,18 @@
+commit 8ea7656018d1757b0b81cda9a4868342b6a8781c
+tree 1b7970b092e741f95a24a8db3a5c042534c39913
+parent d90897592b948fa6b22631b55b5650deca660a30
+author muradsamadov <62170035+muradsamadov@users.noreply.github.com> 2021-01-05 15:17:33 +0400
+committer GitHub <noreply@github.com> 2021-01-05 15:17:33 +0400
+
+    Update App.java
+
+:100644 100644 e719c36366fc5020643b9d9667ecfa126642d2ba 5a6d57214d17ba7484046928cf2e933ec550b50a M	src/main/java/com/mycompany/app/App.java
+commit d90897592b948fa6b22631b55b5650deca660a30
+tree 44e1a79a575c08b127a50c3729240c3f48183e38
+parent d566fe136c6a1d8a92c6c356130e020a07c542f1
+author muradsamadov <62170035+muradsamadov@users.noreply.github.com> 2021-01-05 15:17:22 +0400
+committer GitHub <noreply@github.com> 2021-01-05 15:17:22 +0400
+
+    Update AppTest.java
+
+:100644 100644 79940d32965cf957f1bd234628ea8ee43aefad92 908bac851aef9be99dcc57a0efb36dc514d4e5ca M	src/test/java/com/mycompany/app/AppTest.java
